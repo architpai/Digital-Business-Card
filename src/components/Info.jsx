@@ -1,5 +1,5 @@
-import EmailIcon from "/src/assets/Icon.png"
-import ProfileImage from "/src/assets/me.jpeg"
+import EmailIcon from "../assets/Icon.png"
+import ProfileImage from "../assets/me.jpeg"
 function emailButton(){
     window.location = "mailto:pai.archit@outlook.com";
 }

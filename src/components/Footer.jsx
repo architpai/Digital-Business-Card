@@ -1,7 +1,7 @@
-import FacebookIcon from "/src/assets/Facebook_Icon.png"
-import InstagramIcon from "/src/assets/Instagram_Icon.png"
-import LinkedInIcon from "/src/assets/Linkedin_Icon.png"
-import GitHubIcon from "/src/assets/Github_Icon.png"
+import FacebookIcon from "../assets/facebook-icon.png"
+import InstagramIcon from "../assets/instagram-icon.png"
+import LinkedInIcon from "../assets/linkedin-icon.png"
+import GitHubIcon from "../assets/github-icon.png"
 function handleIconClick(iconType){
     switch (iconType) {
         case "Facebook":
