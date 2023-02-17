@@ -1,0 +1,119 @@
+body{
+  font-family: 'Inter', sans-serif;
+  background: #23252C;
+}
+.App--container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+.Info--container{
+  max-width: 320px;
+  background: #1A1B21;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.Info-Profile-Image{
+  max-width: 320px;
+  max-height: 320px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+.Info--text-title{
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.Info--text-subtitle{
+  color: #F3BF99;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 0px;
+}
+.Info--text{
+  margin-top: 0px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 11px;
+}
+.Info--text-link{
+  color: #F5F5F5 !important;
+  text-decoration: none !important; 
+}
+.Info--text-link:visited{
+  text-decoration: none !important;
+  color: #F5F5F5 !important;
+}
+.Info--text-button{
+  min-height: 35px;
+  min-width: 250px;
+  margin-bottom: 32px;
+  color:  #374151;
+  background-color: #FFFFFF;
+  border: #D1D5DB solid 1px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.Info-text-button-icon{
+  margin-right: 10px;
+}
+.About--container{
+  max-width: 320px;
+  background: #1A1B21;
+}
+.About--heading{
+  font-size: 16px;
+  font-weight: 700;
+  color: #F5F5F5;
+  margin: 0px 36px 0px 36px;
+}
+.About--text{
+  font-size: 11px;
+  font-weight: 400;
+  color: #DCDCDC;
+  margin: 5px 36px 0px 36px;
+}
+.Interests--container{
+  max-width: 320px;
+  background: #1A1B21;
+}
+.Interests--heading{
+  font-size: 16px;
+  font-weight: 700;
+  color: #F5F5F5;
+  margin-left: 36px;
+  margin-bottom: 0px;
+}
+.Interests--text{
+  word-wrap: break-word;
+  font-size: 11px;
+  font-weight: 400;
+  color: #DCDCDC;
+  margin: 5px 36px 30px 36px;
+}
+.Footer--container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #161619;
+  min-width: 320px;
+  min-height: 65px;
+  border-bottom-left-radius:25px;
+  border-bottom-right-radius: 25px;
+}
+.Footer--container > img :first-child{
+  margin-left: 50px;
+}
+.Footer--container > img :last-child{
+  margin-right: 50px;
+}
